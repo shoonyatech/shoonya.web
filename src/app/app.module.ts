@@ -5,9 +5,10 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header/header.component";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [BrowserModule, BrowserAnimationsModule, MatToolbarModule],
   providers: [],
   bootstrap: [AppComponent]
