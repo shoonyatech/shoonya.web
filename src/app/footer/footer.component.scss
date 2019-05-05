@@ -1,7 +1,38 @@
 :host {
-  height: 200px;
-  background-color: #ffb74d;
+  height: 134px;
+  border-top-color: #ffb74d;
+  border-top-width: 5px;
+  border-top-style: solid;
   display: block;
   width: 100%;
   position: relative;
+  padding-top: 17px;
+}
+
+.socials {
+  float: right;
+}
+
+.social {
+  background-image: url("/assets/socials.png");
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+
+.fb {
+  background-position: 0px 0px;
+}
+
+.twitter {
+  background-position: -70px 0px;
+}
+
+.linkedin {
+  background-position: -140px 0px;
+}
+
+.email {
+  background-position: -210px 0px;
 }
