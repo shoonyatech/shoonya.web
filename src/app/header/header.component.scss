@@ -2,4 +2,15 @@
   text-align: left;
   padding: 20px 10px 10px 10px;
   border-bottom: 8px solid #ffb74d;
+  display: flex;
+}
+
+.links {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row-reverse;
+
+  a {
+    margin: 0 15px;
+  }
 }
