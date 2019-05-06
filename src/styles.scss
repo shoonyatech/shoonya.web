@@ -19,10 +19,11 @@ body {
   font-family: "Century Gothic";
   font-size: 24px;
   line-height: 2rem;
+  width: 100%;
 }
 
 .body-wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 section {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 a {
